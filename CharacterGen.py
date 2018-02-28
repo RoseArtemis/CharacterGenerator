@@ -33,7 +33,7 @@ print('Class: ', archetype)
 print('Background: ', background)
 print('Raw Stats: ', end='')
 for repeat in range(6):
-	print(statsRawArr[repeat-1], end=' ')
+	print(statsRawArr[repeat], end=' ')
 print('\nRacial Bonuses: ', 'STR: ', statsList[0], ', DEX: ', statsList[1], ', CON: ', statsList[2], ', INT: ', statsList[3], ', WIS: ', statsList[4], ', CHA: ', statsList[5])
 print('Stats With Bonuses: ', '\n', 'STR: ', statsArr[0], '\n', 'DEX: ', statsArr[1], '\n', 'CON: ', statsArr[2], '\n', 'INT: ', statsArr[3], '\n', 'WIS: ', statsArr[4], '\n', 'CHA: ', statsArr[5])
 if subrace == 'Variant Human':
